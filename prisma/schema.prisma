@@ -36,6 +36,7 @@ model Order {
   reference_point       String
   delivery_instructions String
   userId                String    @db.ObjectId
+  scheduledDate         DateTime  // Add this line to store the date
   Packages              Package[]
   User                  User?     @relation(fields: [userId], references: [id])
 }
