@@ -31,7 +31,7 @@ Para poder ejecutar el proyecto debes instalar la base de datos MongoDB.
 
 
 # API Documentación
-## Autenticar Usuario
+## Controlador Auth
 Base URL: `/auth`
 
 ### Iniciar Sesion
@@ -44,10 +44,8 @@ Base URL: `/auth`
 - **Method**: `POST`
 - **Authentication**: Nunguna
 
-## Orders
+## Controlador Orders
 Base URL: `/orders`
-
-## Ordenes
 
 ### Obtener todas las ordenes
 - **URL**: `/orders`
