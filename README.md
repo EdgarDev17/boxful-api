@@ -25,3 +25,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Base de datos
+
+Para poder ejecutar el proyecto debe instalar la base de datos MongoDB.
